@@ -77,7 +77,7 @@ function Student() {
                 <div class="input-box">        
                 <label>ADDRESS:</label>
 
-                <textarea name="address"  rows="4" cols="30" placeholder="Enter Your address" required ></textarea>
+                <textarea name="address"  rows="2" cols="10" placeholder="Enter Your address" required ></textarea>
                 </div>    
                 <div class="button">
                     <button>REGISTER</button>
