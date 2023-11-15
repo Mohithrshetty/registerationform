@@ -45,7 +45,7 @@ function Student() {
 
                     <label>USN:</label>
 
-                    <input type="text" placeholder="Enter your USN" required />
+                    <input type="text"   pattern="\d[a-zA-Z]{2}\d{2}[a-zA-Z]{2}\d{3}" placeholder="Enter your USN" required />
                 </div>
                 <div class="input-box">
                
@@ -72,7 +72,7 @@ function Student() {
                 <div class="input-box">        
                 <label>EMAIL:</label>
 
-                <input type="text" value={email} onChange={(e)=> setEmail(e.target.value)} pattern="" placeholder="Enter Your email" required />
+                <input type="email" value={email} onChange={(e)=> setEmail(e.target.value)} placeholder="Enter Your email"required />
                 </div>    
                 <div class="input-box">        
                 <label>ADDRESS:</label>
